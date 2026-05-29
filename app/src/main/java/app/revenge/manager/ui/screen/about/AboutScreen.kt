@@ -193,59 +193,27 @@ class AboutScreen : Screen {
                 ) {
                     ElevatedCard {
                         ListItem(
-                            text = "Pylix",
-                            subtext = "Past developer of Bunny",
-                            imageUrl = "https://github.com/pylixonly.png",
+                            text = "Revenge",
+                            subtext = "The project Tacet is forked from",
+                            imageUrl = "https://github.com/revenge-mod.png",
                             onClick = {
-                                uriHandler.openUri("https://github.com/pylixonly")
+                                uriHandler.openUri("https://github.com/revenge-mod")
                             }
                         )
                         ListItem(
-                            text = "Fiery",
-                            subtext = "Past developer of the iOS tweak",
-                            imageUrl = "https://github.com/FieryFlames.png",
+                            text = "Bunny",
+                            subtext = "Predecessor of Revenge",
+                            imageUrl = "https://github.com/pyoncord.png",
                             onClick = {
-                                uriHandler.openUri("https://github.com/FieryFlames")
+                                uriHandler.openUri("https://github.com/pyoncord/Bunny")
                             }
                         )
                         ListItem(
-                            text = "Maisy",
-                            subtext = "Past developer of Vendetta",
-                            imageUrl = "https://github.com/maisymoe.png",
+                            text = "Vendetta",
+                            subtext = "Where the lineage began",
+                            imageUrl = "https://github.com/vendetta-mod.png",
                             onClick = {
-                                uriHandler.openUri("https://github.com/maisymoe")
-                            }
-                        )
-                        ListItem(
-                            text = "Wing",
-                            subtext = "Past developer of Manager",
-                            imageUrl = "https://github.com/wingio.png",
-                            onClick = {
-                                uriHandler.openUri("https://github.com/wingio")
-                            }
-                        )
-                        ListItem(
-                            text = "Kasi",
-                            subtext = "Past developer of the Xposed Module",
-                            imageUrl = "https://github.com/redstonekasi.png",
-                            onClick = {
-                                uriHandler.openUri("https://github.com/redstonekasi")
-                            }
-                        )
-                        ListItem(
-                            text = "rushii",
-                            subtext = "Developer of the installer, zip library, and a portions of patching",
-                            imageUrl = "https://github.com/rushiiMachine.png",
-                            onClick = {
-                                uriHandler.openUri("https://github.com/rushiiMachine")
-                            }
-                        )
-                        ListItem(
-                            text = "Xinto",
-                            subtext = "Developer of the preference manager",
-                            imageUrl = "https://github.com/X1nto.png",
-                            onClick = {
-                                uriHandler.openUri("https://github.com/X1nto")
+                                uriHandler.openUri("https://github.com/vendetta-mod")
                             }
                         )
                     }
